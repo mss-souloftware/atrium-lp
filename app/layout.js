@@ -1,7 +1,44 @@
-import { Inter } from "next/font/google";
+import localFont from 'next/font/local';
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const mainFont = localFont({
+  src: [
+    {
+      path: '../public/fonts/ag.otf',
+      weight: '400'
+    },
+  ],
+  variable: '--main-font'
+})
+
+const secondFont = localFont({
+  src: [
+    {
+      path: '../public/fonts/avenir-roman.ttf',
+      weight: '400'
+    },
+    {
+      path: '../public/fonts/avenir-medium.ttf',
+      weight: '600'
+    },
+    {
+      path: '../public/fonts/avenir-black.ttf',
+      weight: '900'
+    },
+  ],
+  variable: '--second-font'
+});
+
+const thirdFont = localFont({
+  src: [
+    {
+      path: '../public/fonts/bansheep.ttf',
+      weight: '400'
+    },
+  ],
+  variable: '--third-font'
+});
+
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +48,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${mainFont.variable} ${secondFont.variable} ${thirdFont.variable}`}>{children}</body>
     </html>
   );
 }
