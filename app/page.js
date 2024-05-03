@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <section className="heroSection">
-        <video autoPlay muted preload="none">
+        <video loop autoPlay muted preload="none">
           <source src="../Omniverse.mp4" type="video/mp4" />
         </video>
         <div className="container mx-auto z-10 flex flex-column justify-center items-center">
@@ -35,11 +35,10 @@ export default function Home() {
 
 
       <section className="secondSection relative">
-        {/* <div className="container mx-auto"> */}
         <img src="../../atriumCentered.png" className="centeredLogo" />
         <div className="flex justify-center items-stretch twiceRow">
           <div className="w-6/12 relative">
-            <video autoPlay muted preload="none">
+            <video loop autoPlay muted preload="none">
               <source src="../trees-stars.mp4" type="video/mp4" />
             </video>
             <div className="textData text-center">
@@ -68,7 +67,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-6/12 relative">
-            <video autoPlay muted preload="none">
+            <video loop autoPlay muted preload="none">
               <source src="../universewithin.mp4" type="video/mp4" />
             </video>
             <div className="textData text-center">
@@ -98,7 +97,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* </div> */}
       </section>
 
 
