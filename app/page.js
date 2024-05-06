@@ -100,6 +100,37 @@ export default function Home() {
       </section>
 
 
+      <section className="thirdSection py-8 relative">
+        <img src="../../linesCenter.png" className="centeredLogo" />
+        <div className="flex justify-center gap-20 items-stretch twiceRow">
+          <div className="w-6/12 relative text-center">
+            <img className="bannerWidth" src="../../thirdOne.png" />
+            <img className="my-10 d-block" src="../../halo.png" />
+            <Link href="#">
+              <img className="my-10 d-block" src="../../DAOBtn.png" />
+            </Link>
+            <img className="my-10 d-block" src="../../spaceBtn.png" />
+            <div className="flex items-center justify-center">
+              <img className="max-w-32" src="../../nft.png" />
+              <p className="text-white font-second text-2xl font-[600]">Marketplace</p>
+            </div>
+          </div>
+
+
+          <div className="w-6/12 relative text-center">
+            <img className="bannerWidth" src="../../thirdTwo.png" />
+            <img className="my-10 d-block" src="../../halo.png" />
+            <Link href="#">
+              <img className="my-10 d-block max-w-96 mx-auto" src="../../journeyBtn.png" />
+            </Link>
+            <div className="flex items-center justify-center gap-2 px-10 mt-16">
+              <img className="w-4/12" src="../../nftCard1.png" />
+              <img className="w-4/12 -mt-32" src="../../nftCard2.png" />
+              <img className="w-4/12" src="../../nftCard3.png" />
+            </div>
+          </div>
+        </div>
+      </section>
 
       <footer className="bg-black py-16">
         <div className="container mx-auto">

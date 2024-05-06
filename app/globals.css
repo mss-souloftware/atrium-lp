@@ -119,12 +119,36 @@
   max-width: 200px;
   width: 100%;
   height: auto;
-  top:0;
-  bottom:0;
-  left:0;
+  top: 0;
+  bottom: 0;
+  left: 0;
   right: 0;
   margin: auto;
-  z-index:2;
+  z-index: 2;
+}
+
+.thirdSection {
+  background-color: #000;
+  background-image: url('../public/3rdBg.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.thirdSection .bannerWidth {
+  max-width: 500px;
+  max-height: 490px;
+  margin: auto;
+}
+
+.thirdSection .centeredLogo {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 footer img {
