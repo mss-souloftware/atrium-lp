@@ -99,7 +99,7 @@
 
 .secondSection .baseLogo {
   max-width: 200px;
-  margin-left: auto;
+  margin: auto;
 }
 
 .secondSection .twiceRow>div::after {
@@ -132,12 +132,32 @@
   background-image: url('../public/3rdBg.png');
   background-position: center center;
   background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.thirdSection::after{
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 400px;
+  left: -70px;
+  bottom: -220px;
+  background: url('../public/earthBanner.png') no-repeat top;
+  background-size: cover;
+}
+
+.bannerWidthWrapper {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
 }
 
 .thirdSection .bannerWidth {
   max-width: 500px;
   max-height: 490px;
   margin: auto;
+  position: relative;
 }
 
 .thirdSection .centeredLogo {
@@ -149,6 +169,21 @@
   top: 0;
   bottom: 0;
   margin: auto;
+}
+
+
+.vectorleft {
+  position:absolute;
+  max-width:70px;
+  bottom:-165px;
+  left:50px;
+}
+
+.vectorright {
+  position: absolute;
+  max-width: 70px;
+  bottom: -165px;
+  right: 50px;
 }
 
 footer img {

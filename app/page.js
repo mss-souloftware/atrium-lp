@@ -43,13 +43,10 @@ export default function Home() {
             </video>
             <div className="textData text-center">
               <h3 className="text-white font-main text-3xl font-[600] mt-10 ">STARHOLDERS</h3>
-              <div className="flex items-end">
-                <div className="w-6/12">
+              <div className="flex items-center justify-center">
+                <div className="col-12 text-center">
                   <p className="text-white font-third text-2xl font-[600] mt-10">ON</p>
                   <img className="brandLogo" src="../polygon.png" />
-                </div>
-                <div className="w-6/12">
-                  <p className="text-white text-2xl mb-3">Mint an Actual Unique Star</p>
                 </div>
               </div>
               <div className="flex justify-center">
@@ -57,7 +54,8 @@ export default function Home() {
                   <img className="joinBtn" src="../joinBtn.png" />
                 </Link>
               </div>
-              <div className="flex justify-center">
+              <div className="flex flex-col justify-center">
+                <p className="text-white text-2xl mb-3">Mint an Actual Unique Star</p>
                 <p className="text-white text-2xl mb-3">Claim a FREE $250 USDC NFT</p>
               </div>
               <div className="flex flex-col justify-center items-center">
@@ -72,8 +70,8 @@ export default function Home() {
             </video>
             <div className="textData text-center">
               <h3 className="text-white font-main text-3xl font-[600] mt-10 ">JOURNEYBOUND</h3>
-              <div className="flex justify-end">
-                <div className="w-6/12 text-right">
+              <div className="flex justify-center">
+                <div className="w-6/12 text-center">
                   <p className="text-white font-third text-2xl font-[600] mt-10">ON</p>
                   <img className="baseLogo" src="../baseLogo.png" />
                 </div>
@@ -102,14 +100,17 @@ export default function Home() {
 
       <section className="thirdSection py-8 relative">
         <img src="../../linesCenter.png" className="centeredLogo" />
-        <div className="flex justify-center gap-20 items-stretch twiceRow">
+        <div className="flex justify-center gap-20 items-stretch twiceRow relative z-10">
           <div className="w-6/12 relative text-center">
-            <img className="bannerWidth" src="../../thirdOne.png" />
-            <img className="my-10 d-block" src="../../halo.png" />
+            <div className="bannerWidthWrapper">
+              <img className="bannerWidth" src="../../thirdOne.png" />
+              <img className="vectorleft" src="../../vector.png" />
+              <img className="my-10 d-block" src="../../halo.png" />
+            </div>
             <Link href="#">
-              <img className="my-10 d-block" src="../../DAOBtn.png" />
+              <img className="my-10 mx-auto d-block" src="../../DAOBtn.png" />
             </Link>
-            <img className="my-10 d-block" src="../../spaceBtn.png" />
+            <img className="my-10 d-block mx-auto" src="../../spaceBtn.png" />
             <div className="flex items-center justify-center">
               <img className="max-w-32" src="../../nft.png" />
               <p className="text-white font-second text-2xl font-[600]">Marketplace</p>
@@ -118,8 +119,11 @@ export default function Home() {
 
 
           <div className="w-6/12 relative text-center">
-            <img className="bannerWidth" src="../../thirdTwo.png" />
-            <img className="my-10 d-block" src="../../halo.png" />
+            <div className="bannerWidthWrapper">
+              <img className="bannerWidth" src="../../thirdTwo.png" />
+              <img className="vectorright" src="../../vector.png" />
+              <img className="my-10 d-block opacity-0" src="../../halo.png" />
+            </div>
             <Link href="#">
               <img className="my-10 d-block max-w-96 mx-auto" src="../../journeyBtn.png" />
             </Link>
