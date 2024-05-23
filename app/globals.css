@@ -16,6 +16,10 @@
   }
 }
 
+html , body{
+  overflow-x: hidden;
+}
+
 .heroSection,
 .heroSection .container {
   position: relative;
@@ -196,4 +200,44 @@ footer ul li {
 
 footer>.container:first-child {
   border-bottom: 2px solid #8B8B8B;
+}
+
+@media only screen and (max-width: 600px) {
+
+  footer>.container:first-child{
+    border-bottom:none ;
+  }
+
+  .footer-border {
+    padding: 0 50px;
+    text-align: center;
+}
+  .journy-btn{
+    max-width: 16rem;
+  }
+  .thirdSection .bannerWidth {
+    max-width: 80%;
+  }
+  .vectorright {
+    position: absolute;
+    max-width: 50px;
+    bottom: -165px;
+    right: 10px;
+}
+
+.vectorleft {
+  position: absolute;
+  max-width: 50px;
+  bottom: -165px;
+  left: 10px;
+}
+  section.heroSection h1 br {
+    display: none;
+}
+.secondSection .battleLogo {
+  max-width: 130px;
+}
+.secondSection .brandLogo {
+  max-width: 100%;
+}
 }
