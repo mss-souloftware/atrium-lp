@@ -29,13 +29,7 @@ html , body{
 
 
 
-.secondSection .twiceRow>div::after{
-  height: 100vh !important;
-}
 
-.secondSection .textData{
-  height: 100vh !important;
-}
 
 .cuton-btn-journey {
   display: inline-block;
@@ -101,7 +95,7 @@ img.brandLogo_s {
 }
 .secondSection .brandLogo {
   max-width: 180px !important;
-  margin-left: 50px !important;
+
 }
 .text-custom-width {
   width: 120px;
@@ -275,6 +269,86 @@ footer>.container:first-child {
 
 @media only screen and (max-width: 600px) {
 
+  .thirdSection::after{
+  content: none;
+  }
+  section.thirdSection .bannerWidthWrapper {
+    margin: 0;
+}
+  .mobile-sky , .mobile-sky-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .mobile-sky-2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 400px;
+    left: 0;
+    bottom: -100px;
+    background: url('../public/mob-earth.png') no-repeat top;
+    background-size: cover;
+  }
+
+  .mobile-sky::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 400px;
+    left: 0;
+    bottom: -100px;
+    background: url('../public/mob-earth.png') no-repeat top;
+    background-size: cover;
+
+  }
+  .cuton-btn-journey-2 {
+    position: relative;
+    z-index: 20;
+  }
+  
+
+  .space-btn{
+    position: relative;
+    z-index: 9;
+    width: 250px;
+  }
+
+  .custom-zindex{
+    position: relative;
+    z-index: 9;
+  }
+
+  .thirdSection .mobile-sky{
+
+    background-image: url('../public/mobile-sky.jpg');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  
+  }
+
+  .thirdSection .mobile-sky-2{
+
+    background-image: url('../public/mob-galaxy-.png');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  
+  }
+
+  .heroSection .mainLogo {
+    max-width: 280px;
+   
+}
+
+.secondSection video {
+  height: 100vh;
+}
   footer>.container:first-child{
     border-bottom:none ;
   }
@@ -301,12 +375,21 @@ footer>.container:first-child {
   max-width: 50px;
   bottom: -165px;
   left: 10px;
+
+  z-index: 9;
 }
   section.heroSection h1 br {
     display: none;
 }
 .secondSection .battleLogo {
-  max-width: 130px;
+  max-width: 150px;
+}
+.secondSection .baseLogo {
+  max-width: 150px;
+
+}
+.secondSection .joinBtn {
+  max-width: 150px;
 }
 .secondSection .brandLogo {
   max-width: 100%;
