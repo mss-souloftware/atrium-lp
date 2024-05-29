@@ -132,7 +132,7 @@ export default function Home() {
               <p className="text-white font-second text-3xl max-sm:text-[18px] font-[600]">Marketplace</p>
             </div>
           </div>
-          <div className="lg:hidden lg:w-6/12 w-full max-lg:h-screen relative">
+          <div className="lg:hidden lg:w-6/12 w-full max-lg:h-screen relative over-lay">
             <video loop autoPlay muted preload="none">
               <source src="../universewithin.mp4" type="video/mp4" />
             </video>
@@ -174,7 +174,7 @@ export default function Home() {
            
               <button className="cuton-btn-journey-2 mt-10  max-sm:text-[12px] max-sm:my-5 mb-10 font-third">JOURNEYBOUND</button>
             </Link>
-            <div className="flex items-center justify-center gap-2 px-10 mt-16 section-thied-image max-sm:z-20">
+            <div className="flex items-center justify-center gap-2 px-10 mt-16 section-thied-image max-lg:z-20">
               <img className="w-4/12" src="../../nftCard1.png" />
               <img className="w-4/12 -mt-32" src="../../nftCard2.png" />
               <img className="w-4/12" src="../../nftCard3.png" />

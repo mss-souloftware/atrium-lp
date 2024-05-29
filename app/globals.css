@@ -283,7 +283,7 @@ footer>.container:first-child {
     max-width: 200px;
     margin: 0 auto;
   }
-  .thirdSection .twiceRow>div::after {
+  .over-lay::after {
     position: absolute;
     content: "";
     width: 100%;
