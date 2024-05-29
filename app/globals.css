@@ -182,6 +182,8 @@ img.brandLogo_s {
   background: rgba(0, 0, 0, 0.4);
 }
 
+
+
 .secondSection .centeredLogo {
   position: absolute;
   content: "";
@@ -204,14 +206,16 @@ img.brandLogo_s {
   position: relative;
   overflow: hidden;
 }
-
+.space-btn {
+  width: 350px;
+}
 .thirdSection::after{
   position: absolute;
   content: "";
   width: 80%;
   height: 400px;
-  left: -70px;
-  bottom: -160px;
+  left: -125px;
+  bottom: -110px;
   background: url('../public/earthBanner.png') no-repeat top;
   background-size: cover;
 }
@@ -267,7 +271,164 @@ footer>.container:first-child {
   border-bottom: 2px solid #8B8B8B;
 }
 
+
+@media only screen and (max-width: 1100px) {
+ 
+}
+@media only screen and (max-width: 992px) {
+  .bannerWidthWrapper{
+    z-index: 20;
+  }
+  footer img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .thirdSection .twiceRow>div::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .mobile-sky::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 400px;
+    left: 0;
+    bottom: -100px;
+    background: url(/_next/static/media/mob-earth.8946219f.png) no-repeat top;
+    background-size: cover;
+}
+  .thirdSection .bannerWidth {
+    max-width: 300px;
+    height: 300px;
+  }
+
+  .secondSection .centeredLogo{
+    display: none;
+  }
+
+  .thirdSection::after {
+
+    width: 100%;
+
+    left: -70px;
+  }
+
+  .thirdSection .textData {
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    padding: 0 20px 20px;
+  }
+  
+  .thirdSection video {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    object-fit: cover;
+  }
+  .thirdSection .mobile-sky{
+
+    background-image: url('../public/mobile-sky.jpg');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  
+  }
+
+  .thirdSection .mobile-sky-2{
+
+    background-image: url('../public/mob-galaxy-.png');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  
+  }
+  .cuton-btn-journey-2 {
+    position: relative;
+    z-index: 20;
+  }
+  
+
+  .space-btn{
+    position: relative;
+    z-index: 9;
+    width: 250px;
+  }
+
+  .custom-zindex{
+    position: relative;
+    z-index: 9;
+  }
+
+  .thirdSection .baseLogo {
+    max-width: 200px;
+    margin: 0 auto;
+}
+.section-thied-image img {
+  width: 25%;
+}
+.brandLogo {
+  max-width: 60% ;
+}
+}
 @media only screen and (max-width: 600px) {
+
+  footer ul li {
+    margin-bottom: 5px;
+}
+
+  footer img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+  .section-thied-image img {
+    width: 33%;
+}
+ 
+  .thirdSection .textData {
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    padding: 0 20px 20px;
+  }
+  
+  .thirdSection video {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    object-fit: cover;
+  }
 
   .thirdSection::after{
   content: none;
@@ -388,10 +549,19 @@ footer>.container:first-child {
   max-width: 150px;
 
 }
+
+.thirdSection .baseLogo {
+  max-width: 150px;
+
+}
 .secondSection .joinBtn {
   max-width: 150px;
 }
 .secondSection .brandLogo {
+  max-width: 100%;
+}
+
+.thirdSection .brandLogo {
   max-width: 100%;
 }
 }
