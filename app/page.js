@@ -48,7 +48,7 @@ export default function Home() {
               <h3 className="text-white font-main sm:text-3xl text-[18px] max-sm:font-normal font-[600] mt-10 ">STARHOLDERS</h3>
               <div className="flex items-center justify-center max-sm:flex-col">
                 <div className="col-12 text-center">
-                  <p className="text-white font-third sm:text-2xl font-[600] max-sm:font-normal mb-2 mt-10">ON</p>
+                  <p className="text-white font-third sm:text-2xl font-[600] max-sm:font-normal mb-2 mt-5">ON</p>
                   <img className="brandLogo" src="../polygon.png" />
                 </div>
                 <div className="sm:flex sm:hidden flex-col justify-center">
@@ -59,7 +59,7 @@ export default function Home() {
               <div className="flex justify-center">
                 <Link href="#">
               
-                  <button className="custom-btn-join mt-20 mb-10 max-sm:my-5 font-third">Join <br/> the dad</button>
+                  <button className="custom-btn-join mt-20 mb-10 max-sm:my-10 font-third">Join <br/> the dad</button>
                 </Link>
               </div>
               <div className="sm:flex max-sm:hidden flex-col justify-center">
@@ -118,15 +118,18 @@ export default function Home() {
           <div className="lg:w-6/12 w-full relative text-center max-lg:py-10 mobile-sky max-lg:px-5 max-lg:h-screen">
             <div className="bannerWidthWrapper">
               <img className="bannerWidth" src="../../thirdOne.png" />
-              <img className="vectorleft" src="../../vector.png" />
-              <img className="mt-10 d-block" src="../../halo.png" />
-            </div>
-            <Link href="#">
-            <button className="custom-btn-join-start max-sm:text-[12px] mt-10 mb-10 font-third">Starholders</button>
+              <div className="halo-vector">
+              <img className="vector-halo" src="../../vector.png" />
+              <img className="mt-10 max-sm:mt-5 d-block mob-hallo" src="../../halo.png" />
+              <Link href="#">
+            <button className="custom-btn-join-start max-sm:text-[8px] mt-10 max-sm:mt-5 mb-10 font-third">Starholders</button>
          
             </Link>
-            <img className="my-10 sm:hidden d-block space-btn mx-auto" src="../../space-btn-mobile.png" />
-            <img className="my-10 max-sm:hidden d-block space-btn mx-auto" src="../../spaceBtn.png" />
+              </div>
+            </div>
+           
+            <img className="mb-10 sm:hidden d-block space-btn mx-auto" src="../../space-btn-mobile.png" />
+            <img className="mb-10 max-sm:hidden d-block space-btn mx-auto" src="../../spaceBtn.png" />
             <div className="flex items-start justify-center max-lg:items-center max-lg:gap-5 custom-zindex">
               <img className="max-w-32 max-lg:max-w-20" src="../../nft.png" />
               <p className="text-white font-second text-3xl max-sm:text-[18px] font-[600]">Marketplace</p>
@@ -147,14 +150,14 @@ export default function Home() {
               <div className="flex justify-center sm:mt-0 mt-5">
                 <Link href="#">
                 
-                  <button className="cuton-btn-journey mt-20 mb-10 max-sm:my-5 font-third">Join <br/> The Journey</button>
+                  <button className="cuton-btn-journey mt-20 mb-10 max-sm:my-10 font-third">Join <br/> The Journey</button>
                 </Link>
               </div>
               <div className="flex items-end max-sm:mt-10">
                 <div className="w-6/12 text-left">
-                  <p className="text-white text-xl max-sm:text-[16px] text-custom-width">Receive<br></br>$1500 USDC</p>
-                  <p className="text-white text-xl max-sm:text-[16px] text-custom-width">or</p>
-                  <p className="text-white sm:text-left sm:mb-0 mb-10 max-sm:text-[16px] text-left text-xl">Qualify for an Actual Journey at</p>
+                  <p className="text-white text-xl max-sm:text-[18px] text-custom-width">Receive<br></br>$1500 USDC</p>
+                  <p className="text-white text-xl max-sm:text-[18px] text-custom-width">or</p>
+                  <p className="text-white sm:text-left sm:mb-0 mb-10 max-sm:text-[18px] text-left text-xl">Qualify for an Actual Journey at</p>
                   <img className="ms-10 max-sm:ms-0 brandLogo mt-5" src="../brainLogo.png" />
                 </div>
                 <div className="w-6/12 text-right flex justify-end">
@@ -168,13 +171,13 @@ export default function Home() {
             <div className="bannerWidthWrapper">
               <img className="bannerWidth" src="../../thirdTwo.png" />
               <img className="vectorright" src="../../vector.png" />
-              <img className="mt-10 d-block opacity-0" src="../../halo.png" />
+              
             </div>
             <Link href="#">
            
-              <button className="cuton-btn-journey-2 mt-10  max-sm:text-[12px] max-sm:my-5 mb-10 font-third">JOURNEYBOUND</button>
+              <button className="cuton-btn-journey-2 mt-20  max-sm:text-[9px] max-sm:my-10 mb-20 font-third">JOURNEYBOUND</button>
             </Link>
-            <div className="flex items-center justify-center gap-2 px-10 mt-16 section-thied-image max-lg:z-20">
+            <div className="flex items-center max-sm:hidden justify-center gap-2 px-10 mt-16 section-thied-image max-lg:z-20">
               <img className="w-4/12" src="../../nftCard1.png" />
               <img className="w-4/12 -mt-32" src="../../nftCard2.png" />
               <img className="w-4/12" src="../../nftCard3.png" />

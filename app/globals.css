@@ -212,7 +212,7 @@ img.brandLogo_s {
 .thirdSection::after{
   position: absolute;
   content: "";
-  width: 80%;
+  width: 70%;
   height: 400px;
   left: -125px;
   bottom: -110px;
@@ -248,8 +248,8 @@ img.brandLogo_s {
 .vectorleft {
   position:absolute;
   max-width:70px;
-  bottom:-165px;
-  left:50px;
+  bottom: -175px;
+  left: 80px;
 }
 
 .vectorright {
@@ -270,8 +270,42 @@ footer ul li {
 footer>.container:first-child {
   border-bottom: 2px solid #8B8B8B;
 }
+.halo-vector {
+  max-width: 100%;
 
+}
+.halo-vector {
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+ 
+}
 
+img.vector-halo{
+  height: 280px;
+  width: 70px;
+margin-right: auto;
+
+}
+
+.halo-vector{
+  position:relative;
+  top:-45px;
+  left:80px;
+}
+
+.halo-vector .mob-hallo {
+  position:absolute;
+  top:30px;
+  left:30px;
+  max-width:300px;
+}
+
+.halo-vector a{
+  position:absolute;
+  top:100px;
+  left:60px;
+}
 @media only screen and (max-width: 1100px) {
  
 }
@@ -393,6 +427,17 @@ footer>.container:first-child {
 }
 @media only screen and (max-width: 600px) {
 
+  .halo-vector {
+    position: relative;
+    top: -35px;
+    left: 25px;
+
+}
+img.vector-halo {
+  height: 200px;
+  width: 50px;
+}
+
   footer ul li {
     margin-bottom: 5px;
 }
@@ -404,7 +449,10 @@ footer>.container:first-child {
   .section-thied-image img {
     width: 33%;
 }
- 
+.halo-vector .mob-hallo {
+left: 20px;
+  max-width: 220px;
+}
   .thirdSection .textData {
     position: relative;
     content: "";
@@ -449,7 +497,7 @@ footer>.container:first-child {
     width: 100%;
     height: 400px;
     left: 0;
-    bottom: -100px;
+    bottom: -150px;
     background: url('../public/mob-earth.png') no-repeat top;
     background-size: cover;
   }
@@ -522,7 +570,7 @@ footer>.container:first-child {
     max-width: 16rem;
   }
   .thirdSection .bannerWidth {
-    max-width: 80%;
+    max-width: 100%;
   }
   .vectorright {
     position: absolute;
@@ -533,11 +581,10 @@ footer>.container:first-child {
 
 .vectorleft {
   position: absolute;
-  max-width: 50px;
-  bottom: -165px;
-  left: 10px;
-
-  z-index: 9;
+        max-width: 65px;
+        bottom: -170px;
+        left: 54px;
+        z-index: 9;
 }
   section.heroSection h1 br {
     display: none;
@@ -555,7 +602,7 @@ footer>.container:first-child {
 
 }
 .secondSection .joinBtn {
-  max-width: 150px;
+  max-width: 220px;
 }
 .secondSection .brandLogo {
   max-width: 100%;
