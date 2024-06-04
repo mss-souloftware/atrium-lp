@@ -435,6 +435,10 @@ margin-right: auto;
     left: 0;
 
 }
+
+.cuton-btn-journey-2{
+  padding: 25px 20px;
+}
 img.vector-halo {
   height: 200px;
   width: 50px;
@@ -587,7 +591,7 @@ left: 20px;
     position: absolute;
     max-width: 50px;
     bottom: -165px;
-    right: 10px;
+    right: -10px;
 }
 
 .vectorleft {
