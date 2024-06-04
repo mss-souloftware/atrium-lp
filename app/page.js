@@ -167,7 +167,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:w-6/12 w-full relative text-center mobile-sky-2 max-lg:py-10 max-lg:h-screen">
+          <div className="lg:w-6/12 w-full relative text-center mobile-sky-2 max-lg:py-20 max-lg:h-screen">
             <div className="bannerWidthWrapper">
               <img className="bannerWidth" src="../../thirdTwo.png" />
               <img className="vectorright" src="../../vector.png" />
@@ -175,12 +175,16 @@ export default function Home() {
             </div>
             <Link href="#">
            
-              <button className="cuton-btn-journey-2 mt-20  max-sm:text-[9px] max-sm:my-10 mb-20 font-third">JOURNEYBOUND</button>
+              <button className="cuton-btn-journey-2 mt-20  max-sm:text-[9px] max-sm:my-10 mb-10 font-third">JOURNEYBOUND</button>
             </Link>
-            <div className="flex items-center max-sm:hidden justify-center gap-2 px-10 mt-16 section-thied-image max-lg:z-20">
+            <div className="flex items-center hidden justify-center gap-2 px-10 mt-16 section-thied-image max-lg:z-20">
               <img className="w-4/12" src="../../nftCard1.png" />
               <img className="w-4/12 -mt-32" src="../../nftCard2.png" />
               <img className="w-4/12" src="../../nftCard3.png" />
+            </div>
+            <div className="flex items-center justify-center ">
+              <img className="phonix-image md:hidden " src="phoenix.png" alt="image" />
+              <img className="phonix-image max-sm:hidden" src="dektop-phoenix.png" alt="image" />
             </div>
           </div>
         </div>

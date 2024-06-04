@@ -29,7 +29,9 @@ html , body{
 
 
 
-
+img.phonix-image {
+  width: 60%;
+}
 
 .cuton-btn-journey {
   display: inline-block;
@@ -430,7 +432,7 @@ margin-right: auto;
   .halo-vector {
     position: relative;
     top: -35px;
-    left: 25px;
+    left: 0;
 
 }
 img.vector-halo {
@@ -491,7 +493,7 @@ left: 20px;
     flex-direction: column;
   }
 
-  .mobile-sky-2::after{
+  /* .mobile-sky-2::after{
     position: absolute;
     content: "";
     width: 100%;
@@ -500,8 +502,16 @@ left: 20px;
     bottom: 0;
     background: url('../public/infinity.png') no-repeat top;
     background-size: cover;
+  } */
+
+    .mobile-sky-2::after{
+
+    content: none;
+   
   }
 
+
+  
   .mobile-sky::after{
     position: absolute;
     content: "";
@@ -571,6 +581,7 @@ left: 20px;
   }
   .thirdSection .bannerWidth {
     max-width: 100%;
+    height: 250px;
   }
   .vectorright {
     position: absolute;
